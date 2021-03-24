@@ -241,21 +241,26 @@ li.slick-active button{
   content: '';
   height: 70px;
   background: #eeeeee;
-} 
-.col-5 {
-   width: 24%;
-  text-align: center;
-  float: left;
+}
+  .col-5 {
+    padding-left: 112px;
   }
-.col-5 img{
- cursor: pointer;
- margin: 0 auto;
- padding-top: 3em;
- vertical-align: middle;
-}
-.col-5 img:hover{
-  margin-top: 10px!important;
-}
+  .col-5 li {
+    width: 23%;
+    float: left;
+    display: inline-block;
+    text-align: center;
+  }
+  .col-5 img {
+    margin: 0 auto;
+    padding-top: 3em;
+  
+    vertical-align: middle;
+    list-style: none;
+  }
+  .col-5 img:hover {
+    margin-top: 10px !important;
+  }
 .col-6{
   padding-top: 16px;
   display: inline-table;
